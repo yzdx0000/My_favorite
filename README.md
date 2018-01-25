@@ -1,3 +1,5 @@
+# _windows X64下操作_ 
+
 # python环境搭建
 1. 安装python3:https://www.python.org/ftp/python/3.6.4/python-3.6.4.exe
 
