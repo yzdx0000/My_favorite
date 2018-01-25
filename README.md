@@ -1,4 +1,4 @@
-# My_favorite
+# wordcloud
 > 安装依赖包
 pip install -r  requirements.txt
 
