@@ -8,15 +8,15 @@ from scipy.misc import imread
 
 # 读取一个txt文件
 
-text = open(r'C:\Users\wx\Desktop\text.txt', 'rb').read().decode('utf-8')
+text = open(r'C:\Users\Wind.wang\Desktop\test.txt', 'rb').read().decode('utf-8')
 
 # 读入背景图片
 
-bg_pic = imread(r'C:\Users\wx\Desktop\3.jpg')
+bg_pic = imread(r'C:\Users\Wind.wang\Desktop\3.jpg')
 
 # 生成词云
 
-wordcloud = WordCloud(mask=bg_pic, background_color='white', scale=1.5).generate(text)
+wordcloud = WordCloud(mask=bg_pic,  font_path=r"C:\Windows\Fonts\simhei.ttf",background_color='white', scale=1.5).generate(text)
 
 image_colors = ImageColorGenerator(bg_pic)
 # 显示词云图片
