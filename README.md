@@ -12,4 +12,4 @@
 
 1. 打开cmd窗口,安装依赖库，pip install -r  wordcloud_requirements.txt
 
-1. 若安装不上wordcloud，请先安装whl文件
+1. 若安装不上wordcloud，请到相关目录下先安装whl文件:pip install wordcloud-1.3.3-cp37-cp37m-win_amd64.whl
