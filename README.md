@@ -16,3 +16,4 @@
 
 #data_ana(数据分析与可视化)
 1. geo_test.py用于城市AQI指标的地图显示，调用的是spider下的AQI.py模块，AQI.py用于爬取pm2.5网站的数据
+![AQI](https://gitee.com/uploads/images/2018/0127/013333_6d71da15_1734289.png "AQI.png")
