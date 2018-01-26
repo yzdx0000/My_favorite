@@ -10,7 +10,7 @@ import random
 import re
 
 
-#该模块主要为了获取城市和对应的AQI
+# 该模块主要为了获取城市和对应的AQI
 
 
 def getPM25(cityname):
@@ -34,6 +34,7 @@ def two_thread():  # 多线程
     threads = []
     list = ["chongqing", "beijing", "tianjin", "bengbu", "hefei", "wuhu", "maanshan", "shenzhen", "xian", "changsha"
                                                                                                           "hunan",
+            "huangshan", "yunan",
             "hangzhou", "wulumuqi", "wuhan"]
     t1 = threading.Thread(target=getPM25, args=(list[0],))
     threads.append(t1)
@@ -45,9 +46,9 @@ def two_thread():  # 多线程
 
 
 data = []
-for i in ["chongqing", "beijing", "tianjin", "bengbu", "hefei", "wuhu", "maanshan", "shenzhen", "xian", "changsha"
-                                                                                                        "hunan",
-          "hangzhou", "wulumuqi", "wuhan"]:
+for i in ["chongqing", "beijing", "tianjin", "bengbu", "hefei", "wuhu", "maanshan", "shenzhen", "xian", "changsha",
+          "xiangtan","hangzhou", "wulumuqi", "wuhan","zhengzhou","guiyang"]:
+    print(i)
     getPM25(i)
     data.append(getPM25(i))
 
