@@ -13,3 +13,6 @@
 1. 打开cmd窗口,安装依赖库，pip install -r  wordcloud_requirements.txt
 
 1. 若安装不上wordcloud，请到相关目录下先安装whl文件:pip install wordcloud-1.3.3-cp37-cp37m-win_amd64.whl
+
+#data_ana(数据分析与可视化)
+1. geo_test.py用于城市AQI指标的地图显示，调用的是spider下的AQI.py模块，AQI.py用于爬取pm2.5网站的数据
