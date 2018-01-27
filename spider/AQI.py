@@ -14,6 +14,7 @@ import re
 
 
 def getPM25(cityname):
+    """爬取pm2.5"""
     site = 'http://www.pm25.com/' + cityname + '.html'
     html = urllib.request.urlopen(site)
     soup = BeautifulSoup(html)
@@ -47,7 +48,7 @@ def two_thread():  # 多线程
 
 data = []
 for i in ["chongqing", "beijing", "tianjin", "bengbu", "hefei", "wuhu", "maanshan", "shenzhen", "xian", "changsha",
-          "xiangtan","hangzhou", "wulumuqi", "wuhan","zhengzhou","guiyang"]:
+          "xiangtan", "hangzhou", "wulumuqi", "wuhan", "zhengzhou", "guiyang"]:
     print(i)
     getPM25(i)
     data.append(getPM25(i))
