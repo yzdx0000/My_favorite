@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt  # 导入绘图包(今天的主角)
 import numpy as np  # 导入numpy模块 并简写成 np
 import xlrd
 import os
+from data_ana.send_email import  send_email_att
 
 # """获取excel表格中城市一列"""
 # data = pd.read_excel('weather_contrast_20171207.xls')
@@ -71,3 +72,5 @@ attr, value = geo.cast(data)
 geo.add("", attr, value, visual_range=[0, 200], visual_text_color="#fff", symbol_size=15, is_visualmap=True)
 # geo.show_config()
 geo.render()
+
+send_email_att()  #将形成的图像发送到邮件接收者
