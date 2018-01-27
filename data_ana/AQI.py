@@ -18,10 +18,10 @@ import os
 #       # global city
 #    #print(city)
 
-data = []   #定义城市及对应的AQI为list
+data = []  # 定义城市及对应的AQI为list
 # 获取txt文件
-file = open('country.txt', 'r', encoding='utf-8')  #打开城市列表文件
-filelist = file.readlines()                           #读取每一行
+file = open('country.txt', 'r', encoding='utf-8')  # 打开城市列表文件
+filelist = file.readlines()  # 读取每一行
 for city in filelist:
     print(city)
     print('send data....')
@@ -41,11 +41,11 @@ for city in filelist:
     except Exception as e:
         print(e)
     result = response.read().decode('utf-8')
-    result_json = json.loads(result)            #解码json文件
+    result_json = json.loads(result)  # 解码json文件
     # print(result_json)
     try:
 
-        ret_code = result_json['showapi_res_body']['ret_code'] #取返回值
+        ret_code = result_json['showapi_res_body']['ret_code']  # 取返回值
         print(ret_code)
 
     except Exception as a:
