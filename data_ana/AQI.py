@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt  # 导入绘图包(今天的主角)
 import numpy as np  # 导入numpy模块 并简写成 np
 import xlrd
 import os
-from data_ana.send_email import  send_email_att
+import send_email
 
 # """获取excel表格中城市一列"""
 # data = pd.read_excel('weather_contrast_20171207.xls')
