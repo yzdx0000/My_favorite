@@ -15,5 +15,7 @@
 1. 若安装不上wordcloud，请到相关目录下先安装whl文件:pip install wordcloud-1.3.3-cp37-cp37m-win_amd64.whl
 
 # data_ana(数据分析与可视化)
-1. geo_test.py用于城市AQI指标的地图显示，调用的是spider下的AQI.py模块，AQI.py用于爬取pm2.5网站的数据
-![AQI](https://gitee.com/uploads/images/2018/0127/013333_6d71da15_1734289.png "AQI.png")
+1. country.txt为echarts支持的城市列表
+1. 所有AQI指数来源均调用[易源数据](https://www.showapi.com/)提供的API
+1. AQI.py文件制图使用的是[echarts](http://echarts.baidu.com/)的开源库
+1. 注意:AQI.py包含本人的API账号，但请不要使用本人的API账号，去各API网站自行注册或者申请，谢谢配合
