@@ -13,6 +13,7 @@
 1. 打开cmd窗口,安装依赖库，pip install -r  wordcloud_requirements.txt
 
 1. 若安装不上wordcloud，请到相关目录下先安装whl文件:pip install wordcloud-1.3.3-cp37-cp37m-win_amd64.whl
+1. 效果图![效果图](https://gitee.com/uploads/images/2018/0127/190004_fbed5eef_1734289.png "Figure_1.png")
 
 # data_ana(数据分析与可视化)
 1. country.txt为echarts支持的城市列表
