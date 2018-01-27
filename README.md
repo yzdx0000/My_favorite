@@ -19,3 +19,5 @@
 1. 所有AQI指数来源均调用[易源数据](https://www.showapi.com/)提供的API
 1. AQI.py文件制图使用的是[echarts](http://echarts.baidu.com/)的开源库
 1. 注意:AQI.py包含本人的API账号，但请不要使用本人的API账号，去各API网站自行注册或者申请，谢谢配合
+1. ![效果图](https://gitee.com/uploads/images/2018/0127/183410_70c0aac2_1734289.png "1.png")
+1. ![数据](https://gitee.com/uploads/images/2018/0127/183447_cb72586d_1734289.png "2.png")
