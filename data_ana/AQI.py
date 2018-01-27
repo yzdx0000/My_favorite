@@ -64,7 +64,7 @@ for city in filelist:
         except Exception as  e:
             print(e)
 
-geo = Geo("全国主要城市空气质量", "data from pm2.5", title_color="#fff", title_pos="center",
+geo = Geo("全国主要城市实时空气质量", "data from pm2.5", title_color="#fff", title_pos="center",
           width=1200, height=600, background_color='#404a59')
 print(data)
 attr, value = geo.cast(data)
