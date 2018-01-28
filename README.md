@@ -22,3 +22,4 @@
 1. 注意:AQI.py包含本人的API账号，但请不要使用本人的API账号，去各API网站自行注册或者申请，谢谢配合
 1. ![效果图](https://gitee.com/uploads/images/2018/0127/183410_70c0aac2_1734289.png "1.png")
 1. ![数据](https://gitee.com/uploads/images/2018/0127/183447_cb72586d_1734289.png "2.png")
+1. ![这里是列表文本](https://gitee.com/uploads/images/2018/0128/143116_1a42a60e_1734289.png "我的第一个图表.png")
