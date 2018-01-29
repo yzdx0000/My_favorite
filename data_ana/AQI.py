@@ -7,7 +7,10 @@ import numpy as np  # 导入numpy模块 并简写成 np
 import xlrd
 import os
 import  sys
-#from data_ana.send_email import send_email_att
+sys.path.append(r"C:\Users\Wind.wang\PycharmProjects\Ariix_autotest")
+sys.path.append(r"C:\Users\Wind.wang\PycharmProjects\My_favorite\data_ana")
+sys.path.append(r"C:\Users\Wind.wang\PycharmProjects\My_favorite")
+from data_ana.send_email import send_email_att
 
 
 # """获取excel表格中城市一列"""
@@ -75,4 +78,4 @@ geo.add("", attr, value, visual_range=[0, 200], visual_text_color="#fff", symbol
 # geo.show_config()
 geo.render()
 
-#send_email_att()  #将形成的图像发送到邮件接收者
+send_email_att()  #将形成的图像发送到邮件接收者
