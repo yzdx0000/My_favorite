@@ -8,7 +8,7 @@
 1. python IDE工具:https://download.jetbrains.8686c.com/python/pycharm-community-2017.3.3.exe
 1. 使用pycharm打开本地项目My_favorite
 
-#关于使用jenkins执行cmd窗口python中文乱码的解决
+# 关于使用jenkins执行cmd窗口python中文乱码的解决
 ![输入图片说明](https://gitee.com/uploads/images/2018/0129/123635_5eb9eaf1_1734289.png "jenkins.png")
 
 # wordcloud-使用步骤
